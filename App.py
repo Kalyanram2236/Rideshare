@@ -5,7 +5,7 @@ from user_dashboard import user_dashboard
 from driver_dashboard import driver_dashboard
 from admin_dashboard import admin_dashboard
 
-# Main navigation
+# Main navigkjjation
 st.sidebar.title("Ride-Sharing App")
 option = st.sidebar.selectbox("Choose your dashboard", ("User", "Driver", "Admin"))
 
