@@ -1,0 +1,77 @@
+Here is the HTML code:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber-like Ride Sharing</title>
+    <link rel="stylesheet" href="bos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#request-ride">Request Ride</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Uber-like Ride Sharing</h1>
+            <button>Request Ride</button>
+        </section>
+        <section id="request-ride">
+            <h1>Request Ride</h1>
+            <form>
+                <label>Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup"><br><br>
+                <label>Dropoff Location:</label>
+                <input type="text" id="dropoff" name="dropoff"><br><br>
+                <button>Request Ride</button>
+            </form>
+        </section>
+        <section id="dashboard">
+            <h1>Dashboard</h1>
+            <table>
+                <tr>
+                    <th>Ride ID</th>
+                    <th>Pickup Location</th>
+                    <th>Dropoff Location</th>
+                    <th>Status</th>
+                </tr>
+                <!-- Table data will be populated dynamically -->
+            </table>
+        </section>
+        <section id="login">
+            <h1>Login</h1>
+            <form>
+                <label>Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label>Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button>Login</button>
+            </form>
+        </section>
+        <section id="register">
+            <h1>Register</h1>
+            <form>
+                <label>Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label>Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label>Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button>Register</button>
+            </form>
+        </section>
+    </main>
+    <script src="niiu.js"></script>
+</body>
+</html>
